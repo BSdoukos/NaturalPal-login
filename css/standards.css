@@ -1,0 +1,49 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-image: url(../images/app-bg.jpg);
+    background-size: cover;
+    color: white;
+    min-height: 100%;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+input, input:focus {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: white !important;
+    transition: 0.2s linear !important;
+}
+input:focus {
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.534) !important;
+}
+.std-btn:hover, .std-btn:focus {
+    transition: 0.2s ease;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.534);
+}
+.std-link {
+    color: white;
+}
+.std-link:hover {
+    transition: 0.2s ease;
+    text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.534);
+}
+.white, .white:hover {
+    color: white;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: white !important;
+    background-image: none !important;
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.534) !important;
+    border-color: white !important;
+}
